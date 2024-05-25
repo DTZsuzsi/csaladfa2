@@ -9,7 +9,7 @@ function Csaladtag(props) {
 
   return (
     <div className='csaladtag'>
-      <img class='image' alt={nickName} src={image}></img>
+      <img className='image' alt={nickName} src={image}></img>
       <div>
         <h1>
           Név: {lastName} {firstName}

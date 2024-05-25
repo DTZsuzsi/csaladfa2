@@ -1,8 +1,52 @@
-const ditroiak=
-[{firstName:'Sámuel', lastName: 'Ditrói-Tóth', birthday: '2014-07-23' , etel: 'pizza' , film: 'Mitchellék',  szin: 'magenta' , neme: 'férfi', nickName: 'Samu' , konyv: 'Wing Feather', foto:'https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/295321569_10160444857526004_4648466099726609132_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gigOIXsU4UQQ7kNvgGZ2nBj&_nc_ht=scontent-vie1-1.xx&oh=00_AYBCKmFDnV188Sicmnk2CmHs1IGv6TX4Xq3svTQhCYVJiQ&oe=665790A5'
-}, 
-    {firstName: 'Johanna', lastName: 'Ditrói-Tóth', birthday: '2016-06-30' , etel: 'nokedli', film: 'Vámpírként ébredtem',  szin: 'égszínkék', neme: 'nő', nickName: 'Nana', konyv: 'Botcsinálta boszorkány', foto: 'https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/291267200_10160408619201004_2495733220232158718_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mVvs6WQM7ywQ7kNvgEV9O0A&_nc_ht=scontent-vie1-1.xx&oh=00_AYD47Wn8VgMsqrqgxapzmz85mUiCIwW9G1nm09XA1Xixqw&oe=6657A59B'},
-    {firstName: 'Szabolcs', lastName: 'Ditrói-Tóth', birthday: '1980-10-28', etel: 'spenótos tészta', film: 'Hét pszichopata és a sitsu' , szin: 'narancs' , neme: 'férfi', nickName: 'Szabolcs', konyv: 'Mester és Margarita', foto: 'https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/206291056_10159741884231004_3139659820991249845_n.jpg?stp=c69.0.414.414a_dst-jpg_p552x414&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6aGoNPH4lv0Q7kNvgEHwzBo&_nc_ht=scontent-vie1-1.xx&oh=00_AYCU-m30ttOXCLKEmObf14lmlWgpbMaZVFuxg9sM1miwFA&oe=6678FAC0'},
-{firstName: 'Zsuzsa', lastName: 'Ditrói-Tóth', birthday: '1982-08-30', etel: 'szicíliai húsgombóc' , film: 'Becstelen brigantik' , szin: 'petrol kék' , neme: 'nő', nickName: 'Zsuzsi', konyv: 'Mester és Margarita', foto: 'https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/319923089_545195540799781_6933716524248878342_n.jpg?stp=c0.226.1363.1363a_dst-jpg_s552x414&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mcxvMvk8byAQ7kNvgFpzid6&_nc_ht=scontent-vie1-1.xx&oh=00_AYCV76yKQOsHbsatwk4fmWRQi6N4qDJJE3-16uaviFbeTA&oe=66578876'}]
+const ditroiak = [
+  {
+    firstName: 'Sámuel',
+    lastName: 'Ditrói-Tóth',
+    birthday: '2014-07-23',
+    etel: 'pizza',
+    film: 'Mitchellék',
+    szin: 'magenta',
+    neme: 'férfi',
+    nickName: 'Samu',
+    konyv: 'Wing Feather',
+    foto: 'https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/295321569_10160444857526004_4648466099726609132_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gigOIXsU4UQQ7kNvgGZ2nBj&_nc_ht=scontent-vie1-1.xx&oh=00_AYBCKmFDnV188Sicmnk2CmHs1IGv6TX4Xq3svTQhCYVJiQ&oe=665790A5',
+  },
+  {
+    firstName: 'Johanna',
+    lastName: 'Ditrói-Tóth',
+    birthday: '2016-06-30',
+    etel: 'nokedli',
+    film: 'Vámpírként ébredtem',
+    szin: 'égszínkék',
+    neme: 'nő',
+    nickName: 'Nana',
+    konyv: 'Botcsinálta boszorkány',
+    foto: 'https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/291267200_10160408619201004_2495733220232158718_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mVvs6WQM7ywQ7kNvgEV9O0A&_nc_ht=scontent-vie1-1.xx&oh=00_AYD47Wn8VgMsqrqgxapzmz85mUiCIwW9G1nm09XA1Xixqw&oe=6657A59B',
+  },
+  {
+    firstName: 'Szabolcs',
+    lastName: 'Ditrói-Tóth',
+    birthday: '1980-10-28',
+    etel: 'spenótos tészta',
+    film: 'Hét pszichopata és a sitsu',
+    szin: 'narancs',
+    neme: 'férfi',
+    nickName: 'Szabolcs',
+    konyv: 'Mester és Margarita',
+    foto: 'https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/206291056_10159741884231004_3139659820991249845_n.jpg?stp=c69.0.414.414a_dst-jpg_p552x414&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6aGoNPH4lv0Q7kNvgEHwzBo&_nc_ht=scontent-vie1-1.xx&oh=00_AYCU-m30ttOXCLKEmObf14lmlWgpbMaZVFuxg9sM1miwFA&oe=6678FAC0',
+  },
+  {
+    firstName: 'Zsuzsa',
+    lastName: 'Ditrói-Tóth',
+    birthday: '1982-08-30',
+    etel: 'szicíliai húsgombóc',
+    film: 'Becstelen brigantik',
+    szin: 'petrol kék',
+    neme: 'nő',
+    nickName: 'Zsuzsi',
+    konyv: 'Mester és Margarita',
+    foto: 'https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/319923089_545195540799781_6933716524248878342_n.jpg?stp=c0.226.1363.1363a_dst-jpg_s552x414&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mcxvMvk8byAQ7kNvgFpzid6&_nc_ht=scontent-vie1-1.xx&oh=00_AYCV76yKQOsHbsatwk4fmWRQi6N4qDJJE3-16uaviFbeTA&oe=66578876',
+  },
+];
 
-export {ditroiak}
+export { ditroiak };
