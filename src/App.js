@@ -4,10 +4,14 @@ import Reszletek from './components/Reszletek';
 import { ditroiak } from './components/data';
 import { useEffect, useState } from 'react';
 
+import MyTreeComponent from './components/Tree';
+
+
 function App() {
   const [clickedDetail, setClickedDetail] = useState(false);
   const [chosenData, setChosenData] = useState(null);
   const [chosenName, setChosenName] = useState(null);
+  const [seeTree, setSeeTree]=useState(false)
 
   function handleClick(e) {
     setClickedDetail(true);
@@ -26,10 +30,11 @@ function App() {
   return !clickedDetail ? (
     <div className='App'>
       <div className='header'>
+        <button onClick={()=>setSeeTree(true)}>See the tree</button>
         <h1>DITRÓI-TÓTH CSALÁD</h1>
       </div>
 
-      <div className='csalad'>
+     {!seeTree?  (<div className='csalad'>
         {ditroiak.map((member, index) => (
           <div>
             <Csaladtag
@@ -46,7 +51,7 @@ function App() {
             </button>
           </div>
         ))}
-      </div>
+      </div> ): (<MyTreeComponent></MyTreeComponent>)}
     </div>
   ) : (
     chosenData && (
